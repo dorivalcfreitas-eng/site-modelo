@@ -62,7 +62,7 @@ nav a {
 .hero {
   position: relative;
   width: 100%;
-  background: url('imagens/nivelamento3.jpg') no-repeat center center;
+  background: url('nivelamento3.jpg') no-repeat center center;
   background-size: cover;
   height: 50vh;
   display: flex;
@@ -113,14 +113,14 @@ nav a {
 
 /* ✅ Plano de fundo geral abaixo do banner */
 body {
-  background: url('imagens/planofundo1.jpg') no-repeat center top;
+  background: url('planofundo1.jpg') no-repeat center top;
   background-size: contain;   /* mostra a imagem inteira */
   background-attachment: fixed; /* efeito fixo ao rolar */
   background-position: top center;
 }
 
 .fundo-abaixo-banner {
-  background: url('imagens/planofundo1.jpg') no-repeat center center;
+  background: url('planofundo1.jpg') no-repeat center center;
   background-size: cover;     /* cobre toda a área */
   width: 100%;
   min-height: 100vh;          /* ocupa pelo menos a altura da tela */
