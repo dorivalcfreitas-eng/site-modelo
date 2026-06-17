@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terraplanagem - Soluções em Obras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    
+    <div class="logo">TERRAPLANAGEM</div>
+    <nav id="menu">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <a href="#contato" class="btn-orcamento">Solicite um Orçamento</a>
+  
+    <!-- Botão hambúrguer -->
+  <div class="hamburger" id="hamburger">☰</div>
+  </header>
+
+  <!-- Seção Início (banner) -->
+  <section id="inicio" class="hero">
+    <div class="hero-text">
+      <h1>
+        <span class="linha1">Soluções em</span><br>
+        <span class="linha2">Terraplanagem</span>
+      </h1>
+    </div>
+
+    <div class="hero-bottom">
+      <p>Profissionalismo e Eficiência para sua Obra</p>
+      <a href="#servicos" class="btn">Saiba Mais</a>
+    </div>
+  </section>
+
+  <!-- Plano de fundo abaixo do banner -->
+  <section class="fundo-abaixo-banner">
+    <!-- Seção Sobre Nós -->
+    <section id="sobre" class="sobre">
+      <h2>Sobre Nós</h2>
+      <h3 class="subtitulo">
+        <span class="experiencia">Experiência</span> e 
+        <span class="compromisso">Compromisso</span>
+      </h3>
+    
+      <div class="sobre-conteudo">
+        <img src="imagens/hero.jpg" alt="Equipe de terraplenagem" class="subtitulo-img">
+        
+        <div class="sobre-texto">
+          <p>
+            Com anos de experiência no mercado, somos especialistas em serviços de terraplenagem. 
+            Comprometidos com qualidade e segurança, atendemos obras de todos os tamanhos com profissionalismo e eficiência.
+          </p>
+          <div class="valores">
+            <div>🏗️ Experiência</div>
+            <div>✅ Qualidade</div>
+            <div>🦺 Segurança</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos" class="servicos">
+      <h2>Nossos Serviços</h2>
+      <h3 class="subtitulo">O que fazemos:</h3>
+
+      <div class="cards">
+        <div class="card">
+          <img src="imagens/escavacao1.jpg" alt="Escavação">
+          <div class="card-content">
+            <h3>Escavação</h3>
+            <p>Escavação de valas e cortes precisos.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="imagens/nivelamento1.jpg" alt="Nivelamento">
+          <div class="card-content">
+            <h3>Nivelamento</h3>
+            <p>Terraplanagem e nivelamento de terrenos.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="imagens/aterro compactacao1.jpg" alt="Aterro">
+          <div class="card-content">
+            <h3>Aterro</h3>
+            <p>Serviços de aterro e compactação.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="imagens/demolicao2.jpg" alt="Demolição">
+          <div class="card-content">
+            <h3>Demolição</h3>
+            <p>Serviços de demolição de estruturas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+<section id="contato" class="contato">
+  <h2>Entre em Contato</h2>
+  <div class="contato-boxes">
+    <!-- Caixa 1: Formulário -->
+    <div class="contato-box formulario">
+      <form id="formContato" action="enviar.php" method="post">
+
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <input type="tel" name="telefone" placeholder="Seu telefone">
+        <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+ <!-- Caixa 2: Google Maps via iframe -->
+<div class="contato-box box2">
+  <div class="mapa-container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.123456!2d-51.093!3d-29.951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95199f123456789%3A0xabcdef123456789!2sCachoeirinha%2C%20RS!5e0!3m2!1spt-BR!2sbr!4v171234567890!5m2!1spt-BR!2sbr" 
+      width="100%" 
+      height="100%" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy">
+    </iframe>
+    <!-- Overlay com informações -->
+    <div class="map-overlay">
+      <div class="info-contato">
+        <div class="item">
+          <span class="icon">📞</span>
+          <a href="tel:+5551999999999">(51) 99999-9999</a>
+        </div>
+        <div class="item">
+          <span class="icon">📧</span>
+          <a href="mailto:dorivalcf@hotmail.com">dorivalcf@hotmail.com</a>
+        </div>
+        <div class="item">
+          <span class="icon">📍</span>
+          <span>Rua Exemplo, Cachoeirinha - RS</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+    <!-- Rodapé -->
+    <footer>
+      <p>&copy; 2026 Terraplanagem - Todos os direitos reservados</p>
+      <p>Desenvolvedor Dorival Cardoso Freitas</p>
+      <p>Contato: dorivalcf@hotmail.com</p>
+    </footer>
+  </section>
+
+  <script>
+    function initMap() {
+      var local = { lat: -29.951, lng: -51.093 }; // exemplo: Cachoeirinha-RS
+      var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 14,
+        center: local
+      });
+      new google.maps.Marker({
+        position: local,
+        map: map,
+        title: "Nossa localização"
+      });
+    }
+  </script>
+
+<div id="map"></div>
+<script>
+  function initMap() {
+    // Localização fixa (exemplo: Cachoeirinha-RS)
+    var local = { -29.921639995973308, -51.12055757760306};
+
+    // Cria o mapa centralizado na localização
+    var map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 14,
+      center: local
+    });
+
+    // Adiciona o marcador fixo
+    new google.maps.Marker({
+      position: local,
+      map: map,
+      title: "Nossa localização"
+    });
+  }
+</script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_API&callback=initMap">
+  </script>
+  
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const menu = document.getElementById('menu');
+  
+    hamburger.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
+
